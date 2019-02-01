@@ -17,7 +17,7 @@ public class EX_07 {
        
 
         
-        long resultado=1;
+        boolean pol=false;
         for(int i=1; i<=20;i++){
             resultado*=i;
         }
