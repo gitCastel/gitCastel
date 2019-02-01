@@ -16,6 +16,12 @@ public class EX_02 {
             System.out.println(i);
         }
 
+        int con = 10;
+        while(con > 0){
+            System.out.println("hola" + con);
+            con--;
+        }
+
      }
     
 }
