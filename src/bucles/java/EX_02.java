@@ -17,6 +17,12 @@ public class EX_02 {
         }
 
 		genericList.foreach(System.out::println);
+        int con = 10;
+        while(con > 0){
+            System.out.println("hola" + con);
+            con--;
+        }
+
      }
 	
 }
