@@ -11,11 +11,12 @@ package bucles.java;
  */
 public class EX_02 {
      public static void main(String[] args) {
-         
+         List<T> genericList = new ArrayList<>();
         for(int i=5;i<=500;i++){
             System.out.println(i);
         }
 
+		genericList.foreach(System.out::println);
      }
-    
+	
 }
